@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bagy Kopi</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="a" class="navbar-logo">Bagy<span>kopi</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search-btn"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-btn"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="logo-menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <!-- search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <!-- search form end -->
+
+      <!-- shopping cart star -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/product/p3.jpg" alt="produk1" />
+          <div class="item-detail">
+            <h3>cappuccino</h3>
+            <div class="item-price">IDR 22K</div>
+          </div>
+          <i data-feather="trash-2" class="rm-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/product/p1.jpg" alt="produk1" />
+          <div class="item-detail">
+            <h3>americano</h3>
+            <div class="item-price">IDR 20K</div>
+          </div>
+          <i data-feather="trash-2" class="rm-item"></i>
+        </div>
+        <!-- <div class="cart-item">
+          <img src="img/product/p1.jpg" alt="produk1" />
+          <div class="item-detail">
+            <h3>produk 1</h3>
+            <div class="item-price">IDR 18K</div>
+          </div>
+          <i data-feather="trash-2" class="rm-item"></i>
+        </div> -->
+      </div>
+      <!-- shopping cart end -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- hero section start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Secangkir <span>BagyKopi</span></h1>
+        <!-- <p>Semoga selalu ada BagyKopi di setiap instastory kalian.</p> -->
+        <p>Kami siapkan secangkir BagyKopi untuk menemani aktivitas kalian.</p>
+        <a href="" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- hero section end-->
+
+    <!-- about section start-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami1.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Kopi Kami</h3>
+          <p>
+            Produk kopi kami dipilih dengan hati-hati dari biji kopi berkualitas
+            terbaik.
+          </p>
+          <p>
+            menyediakan beragam pilihan rasa kopi untuk memuaskan selera para
+            penggemar kopi.
+          </p>
+          <p>Kepuasan pelanggan adalah prioritas utama kami.</p>
+          <p>
+            Kami berkomitmen untuk mendukung praktik pertanian berkelanjutan dan
+            adil. Dengan membeli produk kopi dari kami, Anda ikut berkontribusi
+            pada upaya kami dalam mendukung petani kopi lokal dan lingkungan,
+            serta menjaga masa depan kopi yang berkelanjutan.
+          </p>
+          <p>
+            Kami senantiasa berinovasi dalam menghadirkan rasa kopi yang unik
+            dan berbeda.
+          </p>
+          <br />
+          <p>
+            Jadi, jangan ragu untuk membeli kopi dari produk kami. Nikmati
+            kepuasan sejati dari setiap tegukan dan dukung keberlanjutan kopi
+            bersama kami. Jadikan pagi, siang, dan malam Anda lebih bermakna
+            dengan kopi berkualitas dari kami"
+          </p>
+          <br />
+          <p>
+            <span
+              >"Kenikmatan Sejati dari Kopi Berkualitas yang Menggoda -
+              BagyKopi!"</span
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section end-->
+
+    <!-- Menu section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        "Menu Kopi dengan Cita Rasa yang Memikat - Temukan Kelezatan Sejati dari
+        BagyKopi"
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- espresso -</h3>
+          <p class="menu-card-price">IDR 18K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/5.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- americano -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/3.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- coffee latte -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/6.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- cappuccino -</h3>
+          <p class="menu-card-price">IDR 22K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/7.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- ice blend -</h3>
+          <p class="menu-card-price">IDR 22K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/11.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- milk shake -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/9.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- mocktail -</h3>
+          <p class="menu-card-price">IDR 22K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/10.jpg" alt="espresso" class="menu-card-img" />
+          <h3 class="menu-card-title">- mojito -</h3>
+          <p class="menu-card-price">IDR 20K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section end -->
+
+    <!-- product section -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>
+        "Rasakan Kenikmatan Sejati dalam Setiap Tegukan Kopi Berkualitas Kami"
+      </p>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-btn1"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="img/product/p1.jpg" alt="produk 1" />
+          </div>
+          <div class="product-content">
+            <h3>americano</h3>
+            <div class="products-star">
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+            </div>
+            <div class="product-price">IDR 20K <span>IDR 22k</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-btn2"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="img/product/p2.jpg" alt="produk 1" />
+          </div>
+          <div class="product-content">
+            <h3>coffee latte</h3>
+            <div class="products-star">
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+            </div>
+            <div class="product-price">IDR 20K <span>IDR 22k</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-btn3"><i data-feather="eye"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="img/product/p3.jpg" alt="produk 1" />
+          </div>
+          <div class="product-content">
+            <h3>cappuccino</h3>
+            <div class="products-star">
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+              <i data-feather="star" class="stars"></i>
+            </div>
+            <div class="product-price">IDR 22K <span>IDR 24k</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product end -->
+
+    <!-- contact section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Kami selalu mengutamakan kepuasan pelanggan, dan setiap masukan yang
+        kami terima membantu kami dalam mengevaluasi dan memperbaiki proses
+        pelayanan kami.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31629.63492731117!2d110.00813610000002!3d-7.714836449999969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7ae9390982f0c7%3A0x17c2de309e2c01b7!2sPurworejo%2C%20Kec.%20Purworejo%2C%20Kabupaten%20Purworejo%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1690180740948!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        >
+        </iframe>
+
+        <form action="">
+          <div class="input-grup">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="sosials">
+        <a href="https://instagram.com/xyokk__?igshid=NTc4MTIwNjQ2YQ=="
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://twitter.com/?lang=en-id"
+          ><i data-feather="twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Tyo</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- footer end-->
+
+    <!-- modal box item detail start-->
+    <div class="modal" id="item-detail-modal">
+      <div class="model-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/product/p1.jpg" alt="produk 1" />
+          <div class="product-content">
+            <h3>americano</h3>
+            <p>
+              Americano Coffee adalah salah satu varian kopi yang menawarkan
+              perpaduan sederhana namun memikat rasa yang khas. Dibuat dengan
+              mencampurkan espresso yang pekat dengan air panas, Americano
+              menghadirkan cita rasa yang lembut namun memiliki semangat yang
+              menggebu.
+            </p>
+            <div class="products-bintang">
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+            </div>
+            <div class="product-price">IDR 20K</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="item-detail-modal1">
+      <div class="model-container">
+        <a href="#" class="close-icon1"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/product/p2.jpg" alt="produk 1" />
+          <div class="product-content">
+            <h3>coffee latte</h3>
+            <p>
+              Coffee Latte adalah keindahan harmoni antara cita rasa kopi
+              espresso yang kuat dan lembutnya kehalusan susu. Dengan
+              menggabungkan espresso yang diseduh secara sempurna dengan susu
+              yang lembut dan krimy, Coffee Latte menawarkan pengalaman kopi
+              yang memanjakan lidah dan menyegarkan jiwa.
+            </p>
+            <div class="products-bintang">
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+            </div>
+            <div class="product-price">IDR 20K</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="item-detail-modal2">
+      <div class="model-container">
+        <a href="#" class="close-icon2"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/product/p3.jpg" alt="produk 1" />
+          <div class="product-content">
+            <h3>cappuccino</h3>
+            <p>
+              Cappuccino adalah pesona rasa Italia yang menggoda dalam setiap
+              tegukan. Dibuat dari kombinasi sempurna antara espresso pekat,
+              susu berbusa, dan taburan bubuk kakao di atasnya, Cappuccino
+              menghadirkan kesempurnaan cita rasa kopi yang memikat hati.
+            </p>
+            <div class="products-bintang">
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+              <i data-feather="star" class="bintang"></i>
+            </div>
+            <div class="product-price">IDR 22K</div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i><span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal box item detail end-->
+
+    <!-- Feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
